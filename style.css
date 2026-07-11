@@ -100,6 +100,60 @@ nav ul li a{
     padding: 20px 60px;
 }
 
+.speaker {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.speaker h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.speaker-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.speaker-card p {
+    font-size: 14px;
+    color: #767c8a;
+}
+
+.speaker> div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 28px;
+    
+}
+.speaker-card {
+    border: 1px solid #e7e9ee;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.speaker-card img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    display: block;
+}
+.speaker-card .info {
+    padding: 20px 22px 24px;
+}
+.speaker-card .branch {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #1D4ED8;
+    margin-bottom: 8px;
+}
+
+
 footer{
     display: flex;
     justify-content: space-around;
