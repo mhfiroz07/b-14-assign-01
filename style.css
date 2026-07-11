@@ -212,6 +212,59 @@ nav ul li a{
     text-align: left;
 }
 
+.pricing-card2 {
+    background-color: #0b1220;
+    color: #ffffff;
+    border: none;
+}
+
+.pricing-card1 h3,
+.pricing-card2 h3,
+.pricing-card3 h3 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #767c8a;
+    margin-bottom: 14px;
+}
+.pricing-card2 h3 { color: #9aa5f5; }
+.pricing-card1 h4,
+.pricing-card2 h4,
+.pricing-card3 h4 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #767c8a;
+    margin-bottom: 22px;
+}
+
+.pricing-card2 h4 { color: rgb(211, 211, 211); }
+
+.pricing-card1 ul,
+.pricing-card2 ul,
+.pricing-card3 ul {
+    list-style: none;
+    padding-top: 22px;
+    border-top: 1px solid #e7e9ee;
+    margin-bottom: 28px;
+    flex-grow: 1;
+}
+.pricing-card2 ul {
+    border-top: 1px solid rgb(168, 168, 168);
+}
+
+.pricing-card1 li,
+.pricing-card2 li,
+.pricing-card3 li {
+    font-size: 14.5px;
+    padding: 7px 0 7px 18px;
+    position: relative;
+    color: #4a4f5c;
+}
+.pricing-card2 li { color: rgba(255,255,255,0.85); }
+
+
+
 
 footer{
     display: flex;
@@ -226,6 +279,7 @@ footer{
      color: #7c8797;
     gap: 30px;
 }
+
 
 
 
