@@ -100,3 +100,16 @@ nav ul li a{
     padding: 20px 60px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0D1B2A ;
+    color: rgb(148, 137, 137);
+    padding: 2rem;
+}
+.footer-links{
+    display:flex;
+     color: #7c8797;
+    gap: 30px;
+}
