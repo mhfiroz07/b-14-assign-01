@@ -249,21 +249,41 @@ nav ul li a{
     margin-bottom: 28px;
     flex-grow: 1;
 }
-.pricing-card2 ul {
+.pricing-card2 ul{
     border-top: 1px solid rgb(168, 168, 168);
 }
 
 .pricing-card1 li,
 .pricing-card2 li,
-.pricing-card3 li {
+.pricing-card3 li{
     font-size: 14.5px;
     padding: 7px 0 7px 18px;
     position: relative;
     color: #4a4f5c;
 }
 .pricing-card2 li { color: rgba(255,255,255,0.85); }
-
-
+.pricing-card1 li::before,
+.pricing-card2 li::before,
+.pricing-card3 li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #4a5bdd;
+}
+.pricing-card1 button,
+.pricing-card3 button {
+    background: transparent;
+    color: #14161c;
+    border: 1.5px solid #e7e9ee;
+    width: 100%;
+}
+.pricing-card3 button {
+    background: #14161c;
+    color: #ffffff;
+}
+.pricing-card2 button {
+    width: 100%;
+}
 
 
 footer{
